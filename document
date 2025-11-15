@@ -1,0 +1,162 @@
+Cardiac CT Scanning Manual – GE Revolution Apex 256-slice
+This manual outlines how to perform, troubleshoot, and evaluate cardiac CT scans on the GE Revolution Apex 256-slice scanner. It is designed for technologists and team members who perform advanced cardiac CT imaging at our facility.
+GE Revolution Apex (256-slice, 16 cm detector)
+Version: 1.0
+Author: Sean Chinery 
+Last Updated: 11/10/2025
+Core Scanning Workflow
+1. Patient Preparation and Setup
+•	Instructions: 
+•	Generally, the RNs are responsible for setting up the patients to come to the machine for scan. This involves giving beta blockers and nitroglycerin, to lower the heart rate and dilate the vessels respectively. 
+•	Tips: 
+•	While the patient is on the table if they’re blood pressure can handle it, and the heart rate goes up a bit it would be advantageous to ask an RN to give more metoprolol
+•	1 exam can be scanned without RN intervention, commonly called either Left Atrial Appendage, or watchman. 
+•	Common Errors and How to Respond: 
+•	18g Introcan 3 catheters and or >=20g Nexiva Diffusics IVs are the preferred catheters as the injection rate should be higher than smaller IVs can maintain the pressure. 
+2. ECG Lead Placement
+•	Instructions: 
+•	Appended is a visual for the best location for the leads to be placed on the chest for the steadiest rhythm recording. 
+•	Common Errors and How to Respond:
+•	When the patient raises their arms while getting on the table sometimes the chest tissue will raise the leads above the collar bone, causing an unusable trace. 
+•	The black wires cannot be tangled, or it will cause an unusable trace.
+•	Preferably IVY brand lead stickers should be used. 
+•	The leads should be placed as close to the ribcage as possible. 
+•	Legs and arms uncrossed 
+3. How the machine acquires images
+In brief a 16cm(256 slice) detector acquires heart CTs in terms of rotations as the exams are performed axial instead of helical. Only a portion of each scan is necessary to reconstruct diagnostic images of structure and coronary arteries. 
+
+If the scan occurs with a heart rate of 60 BPM and a rotation time of 0.234 seconds rotation for a full beat then there will be a total of 4.2 rotations of the tube, we’ll simplify this to 4. Therefore a full heart beat scan will take 1 sec(1000ms) for the total of 4 rotations. The total scan time is then divided by a percentage value for the total scan. Most commonly divided into 5% sections of the heartbeat. The machine requires a half turn of the tube or 180 degrees of travel to reconstruct a single set of 256 images at 0.625mm thickness and spacing. When scanning at a single percentage most often 75% the machine will make a single full rotation in that case because it makes a full rotation it is able to fully reconstruct 3 total scans from the total of 360 degrees. One set will be from 0⁰-180⁰, another 90⁰-240⁰ and a final 180⁰-0⁰, resulting in 3 scans, 70%, 75%, 80%. The full heart beat total of four rotations will be reconstructed in total increments of 5 %, 0%(first R-wave) to 100%(second R-wave), dividing the 4 rotations into 20:180⁰ rotations. Table 1.1. 
+% between R-R	Start ⁰	End⁰
+0	0	180
+5	63	243
+10	126	306
+15	189	369
+20	252	432
+25	315	495
+30	378	558
+35	441	621
+40	504	684
+45	567	747
+50	630	810
+55	693	873
+60	756	936
+65	819	999
+70	882	1062
+75	945	1125
+80	1008	1188
+85	1071	1251
+90	1134	1314
+95	1197	1377
+100	1260	1440
+Table 1.1: List of rotation segment degrees of reconstruction. 
+4. How the machine acquires images
+SSF uses an algorithm in the background to look at all the percentage options 1-100% and find the one with the least amount of motion. In phases all you’ll have 20 sets of images in multiple of 5% for a full heartbeat scan there will be 3 sets of images, it can be any setof images at any precent, with 5% below and above the chosen set.  Figure 1.2
+ 
+Figure 1.2: Routine exam shot at 75%-75%. Due to the nature of cardiac wide detector axial imaging, it is possible to reconstruct 15% total percent from a single exam.
+4. Timing of images. 
+	The timing for a CT cardiac, for diagnosing coronary arteries and structure of the heart is specific. The range for the least amount of motion in the heart occurs during diastasis, the center of which is around 75%. 
+ 
+Figure 1.3: 60BPM NON-irregular Heartbeat cycle, the first trigger the machine records is on the first R-wave, and the second trigger being the second R-wave, 0-100% respectively. 
+Ideally Patients heart rate would be stable in the low 60s or 50s. This gives the longest diastasis without compromising the images. Too fast exhibits varying degrees of difficulty when acquiring images. Too fast and diastasis shrinks relative to the total time between r-waves, high rate variability can increase the radiation or miss the ideal percentages entirely, and irregularities can interrupt the scan before the ideal percentages are imaged. 
+
+4. Rhythm Evaluation	 
+
+4. Contrast Administration and Timing
+•	Instructions: 
+•	Patients with a GFR above 30 can be given a routine dose of contrast. 
+•	Omnipaque 350mg/dl, the equivalent, or greater concentration of contrast
+•	7.0ml/s injection rate for both saline and contrast 
+•	Cardiacs are best scanned while the contrast has moved from the right side of the heart to the left side and only the left side. In this ideal timing the right side of the heart does not have a large concentration of contrast causing streak artefact from declining image quality 
+•	The correct timing is achieved by using the autotriggering function of the machine scanning. SmartPrep by GE.
+•	The threshold trigger is 150HU and there is an 11 sec delay at the nearest heart beat trigger between trigger and scan.
+•	150HU is not an empirical delay it is a differential. This means that the scan will not be triggered until 150HU + the locating ROI HU average. Blood in the body for the majority of people is ~40HU, therefore the SmartPrep will trigger at 190HU and NOT the 150HU number that is part of the protocol
+•	For the best chances of a well-timed CT, it is best to use an ROI that is approx. 50% of the full width of the aorta. A larger area ROI is more accurate to the reality. In addition, a larger ROI will tend to average out any streak artifacts accidentally beginning the scan earlier. 
+
+
+
+•	Tips: 
+•	If the test injection is around ~60 the 350mg/dl concentration contrast will unlikely reach or trigger the pressure limiting protocol in the power injector
+•	A hand flush should be done initially in the position the injection site will be during the CT exam. This is to eval if the LDA can accept the contrast at the pressures we inject. 
+•	
+•	Common Errors and How to Respond:
+•	The case in Figure 1.4 was scanned later than is should have been the cause being the “baseline” image is almost double the average for blood. There are three causes and fixes that would have timed this scan properly. The shoulders are in the scan field, likely because the patient could not raise them, creating a lot of streak. The patients BMI is above the average leaning towards morbidity. The ROI during the scan was smaller than recommended. 
+
+ 
+Figure 1.4: Scan triggered two prep scans beyond the expected timing for the pulmonary artery.
+4. Scan Planning and Breath-Hold Coaching
+•	Instructions:
+•	Tips:
+•	Common Errors and How to Respond:
+5. Troubleshooting Common Issues (motion, HR spikes, arrhythmia)
+•	Instructions:
+•	Tips:
+•	Common Errors and How to Respond:
+6. Image Reconstruction and Post-Processing
+•	Instructions:
+•	Tips:
+•	Common Errors and How to Respond:
+7. Quality Checks and Case Evaluation
+•	Instructions:
+•	Tips:
+•	Common Errors and How to Respond:
+8. Documentation and Dose Logging
+•	Instructions:
+•	Tips:
+•	Common Errors and How to Respond:
+Protocol-Specific Instructions
+Regular Coronary CTA
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
+CABG 
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
+Whole Arch Evaluation
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
+Left Atrial Appendage (LAA) Evaluation
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
+Sentinel Device / LAA Device Check
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
+Tricuspid Valve Imaging
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
+High-Resolution Coronary CTA (Hi-Res)
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
+Valve Evaluation / Pre-TAVR
+•	Goal:
+•	Scan Mode / Coverage / Parameters:
+•	Contrast Protocol:
+•	Recon / Post-processing:
+•	What to Evaluate:
+•	Common Pitfalls / Troubleshooting:
